@@ -34,7 +34,7 @@ plt.suptitle(usinp_title, fontsize=16)
 #plt.subplots_adjust(hspace=0.4)#
 #первый графф
 #plt.subplot(2,1,1)
-plt.plot(diode, lux)
+plt.plot(photocell, lux)
 plt.xlabel('Volts')
 plt.ylabel('lux')
 #plt.title(u'Вольт-амперная характеристика', fontsize=12)
@@ -49,6 +49,6 @@ plt.title(u'Вольт-амперная характеристика', fontsize=
 plt.grid(True)
 """
 #вывод
-plt.figure(1).savefig(usinp_title + 'e' + '.png')
-plt.figure(1).savefig(usinp_title + 'e' + '.pdf')
+plt.figure(1).savefig(usinp_title + '_photocell' + '.png')
+plt.figure(1).savefig(usinp_title + '_photocell' + '.pdf')
 #plt.show()
